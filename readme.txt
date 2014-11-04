@@ -14,6 +14,7 @@ Display popslide and increase your newsletter signups conversions!
 This plugin comes with built in integration with Mailpoet newsletter plugin however you can style you'r own forms by adding custom CSS via beautiful CSS editor
 
 Available languages:
+
 *   English (author)
 *   Polish (author)
 
