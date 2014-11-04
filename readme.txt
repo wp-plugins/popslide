@@ -11,7 +11,7 @@ Popslide is better WordPress popup plugin which displays fully customisable bar 
 
 Display popslide and increase your newsletter signups conversions!
 
-This plugin comes with built in integration with Mailpoet newsletter plugin however you can style you'r own forms by adding custom CSS via beautiful CSS editor
+This plugin comes with built in integration with Mailpoet newsletter plugin however you can style your own forms by adding custom CSS via beautiful CSS editor
 
 Available languages:
 
@@ -31,7 +31,7 @@ Don't download .zip file - is silly when you can search for this plugin in your 
 
 == Frequently Asked Questions ==
 
-= Is this plugin a best popup plugin on the world> =
+= Is this plugin a best popup plugin on the world? =
 
 Why don't you check and tell me?
 (Rumors say yes)
