@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: popslide\n"
+"POT-Creation-Date: 2014-11-02 13:25+0100\n"
+"PO-Revision-Date: 2014-11-02 13:26+0100\n"
+"Last-Translator: Jakub Mikita <kuba@wordpressgeeks.co.uk>\n"
+"Language-Team: Kuba Mikita <contact@jmikita.com>\n"
+"Language: Polish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../popslide.php:382
+msgid "Save"
+msgstr "Zapisz"
+
+#: ../popslide.php:386
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: ../popslide.php:387
+msgid "Content"
+msgstr "Zawartość"
+
+#: ../popslide.php:388
+msgid "Styling"
+msgstr "Style"
+
+#: ../popslide.php:389 ../popslide.php:426
+msgid "Preview"
+msgstr "Podgląd"
+
+#: ../popslide.php:415
+msgid "Status"
+msgstr "Status"
+
+#: ../popslide.php:419 ../popslide.php:430
+msgid "Active"
+msgstr "Aktywne"
+
+#: ../popslide.php:421
+msgid "Popslide will display on the front-end"
+msgstr "Popslide będzie wyświetlany na stronie"
+
+#: ../popslide.php:432
+msgid ""
+"Popslide (if active) will be displayed only for administrators. Cookie (if "
+"active) will be not saved"
+msgstr ""
+"Popslide (jeśli aktywny) będzie wyświetlany tylko dla administratorów. "
+"Ciasteczko (jeśli aktywne) nie będzie zapisane"
+
+#: ../popslide.php:437
+msgid "Mobile"
+msgstr "Urządzenia przenośne"
+
+#: ../popslide.php:441
+msgid "Display for mobile"
+msgstr "Wyświetlaj dla urządzeń przenośnych"
+
+#: ../popslide.php:447
+msgid "Cookie"
+msgstr "Ciasteczko"
+
+#: ../popslide.php:451
+msgid "Save cookie on visitor's machine"
+msgstr "Zapisz ciasteczko na komputerze odwiedzającego"
+
+#: ../popslide.php:454
+#, php-format
+msgid "Save for %s days"
+msgstr "Zapisz na %s dni"
+
+#: ../popslide.php:456
+msgid "This will prevent displaying popslide on every visit"
+msgstr "To zapobiegnie wyświetlaniu popslide przy każdym odświeżeniu strony"
+
+#: ../popslide.php:461
+msgid "Display rule"
+msgstr "Reguła wyświetlania"
+
+#: ../popslide.php:465
+#, php-format
+msgid "On %s pageview"
+msgstr "Przy %s wyświetleniu"
+
+#: ../popslide.php:470
+msgid "and"
+msgstr "i"
+
+#: ../popslide.php:471
+msgid "or"
+msgstr "lub"
+
+#: ../popslide.php:476
+#, php-format
+msgid "after %s seconds on the page"
+msgstr "po %s sekundach spędzonych na stronie"
+
+#: ../popslide.php:480
+msgid "spent on"
+msgstr "spędzonych"
+
+#: ../popslide.php:482
+msgid "the current page"
+msgstr "na obecnej stronie"
+
+#: ../popslide.php:483
+msgid "the website"
+msgstr "w witrynie"
+
+#: ../popslide.php:519
+msgid "Background color"
+msgstr "Kolor tła"
+
+#: ../popslide.php:526
+msgid "Font color"
+msgstr "Kolor czcionki"
+
+#: ../popslide.php:533
+msgid "Position"
+msgstr "Pozycja"
+
+#: ../popslide.php:535
+msgid "top"
+msgstr "góra"
+
+#: ../popslide.php:536
+msgid "bottom"
+msgstr "dół"
+
+#: ../popslide.php:542
+msgid "Align"
+msgstr "Wyrównanie"
+
+#: ../popslide.php:545
+msgid "Left"
+msgstr "Do lewej"
+
+#: ../popslide.php:546
+msgid "Center"
+msgstr "Do środka"
+
+#: ../popslide.php:547
+msgid "Right"
+msgstr "Do prawej"
+
+#: ../popslide.php:549
+msgid "Whole popslide"
+msgstr "Całe okno popslide"
+
+#: ../popslide.php:554
+msgid "Width"
+msgstr "Szerokość"
+
+#: ../popslide.php:561
+msgid "Display setting"
+msgstr "Ustawienie wyświetlania"
+
+#: ../popslide.php:564
+msgid "Cover"
+msgstr "Przykryj"
+
+#: ../popslide.php:565
+msgid "Push"
+msgstr "Wypchnij"
+
+#: ../popslide.php:571
+msgid "Padding"
+msgstr "Padding"
+
+#: ../popslide.php:573
+msgid "Top: "
+msgstr "Górny: "
+
+#: ../popslide.php:574
+msgid "Right: "
+msgstr "Prawy: "
+
+#: ../popslide.php:575
+msgid "Bottom: "
+msgstr "Dolny: "
+
+#: ../popslide.php:576
+msgid "Left: "
+msgstr "Lewy: "
+
+#: ../popslide.php:581
+msgid "Close button position"
+msgstr "Pozycja przycisku zamykania"
+
+#: ../popslide.php:583
+msgid "top left"
+msgstr "górny lewy róg"
+
+#: ../popslide.php:584
+msgid "top right"
+msgstr "górny prawy róg"
+
+#: ../popslide.php:585
+msgid "bottom right"
+msgstr "dolny prawy róg"
+
+#: ../popslide.php:586
+msgid "bottom left"
+msgstr "dolny lewy róg"
+
+#: ../popslide.php:592
+msgid "Close button size"
+msgstr "Rozmiar przycisku zamykania"
+
+#: ../popslide.php:599
+msgid "Close button color"
+msgstr "Kolor przycisku zamykania"
+
+#: ../popslide.php:606
+msgid "Animation"
+msgstr "Animacja"
+
+#: ../popslide.php:609
+msgid "Type"
+msgstr "Typ"
+
+#: ../popslide.php:650
+msgid "Duration"
+msgstr "Czas trwania"
+
+#: ../popslide.php:657
+msgid "Custom CSS"
+msgstr "Własny CSS"
+
+#: ../popslide.php:661
+msgid "Enable custom CSS"
+msgstr "Włącz własny CSS"
+
+#: ../popslide.php:664
+msgid "Custom class"
+msgstr "Własne klasy"
+
+#: ../popslide.php:693
+msgid "Error while saving settings. Please try again"
+msgstr "Błąd podczas zapisywania ustawień. Spróbuj ponownie"
+
+#: ../popslide.php:697
+msgid "Settings saved."
+msgstr "Ustawienia zapisane."
