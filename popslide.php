@@ -4,7 +4,7 @@ Plugin Name: Popslide
 Description: Best popup slider plugin
 Author: Kuba Mikita
 Author URI: http://www.wpart.pl
-Version: 1.3.0
+Version: 1.3.1
 License: GPL2
 Text Domain: popslide
 */
@@ -81,7 +81,6 @@ class POPSLIDE {
 
 		add_action('wp_enqueue_scripts', array($this, 'load_front_assets'));
 		add_action('wp_head', array($this, 'load_front_css'));
-		add_action('admin_enqueue_scripts', array($this, 'load_admin_assets'));
 
 		add_action('admin_menu', array($this, 'add_menu_page'));
 
@@ -359,7 +358,9 @@ class POPSLIDE {
 	 */
 	public function add_menu_page() {
 
-		add_menu_page('Popslide', 'Popslide', 'manage_options', 'popslide', array($this, 'display_admin_page'), 'dashicons-upload', 101.012);
+		$this->page_hook = add_menu_page('Popslide', 'Popslide', 'manage_options', 'popslide', array($this, 'display_admin_page'), 'dashicons-upload', 101.012);
+
+		add_action('admin_print_scripts-'.$this->page_hook, array($this, 'load_admin_assets'));
 
 	}
 
