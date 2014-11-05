@@ -31,7 +31,7 @@ Don't download .zip file - is silly when you can search for this plugin in your 
 
 == Frequently Asked Questions ==
 
-= Is this plugin a best popup plugin on the world? =
+= Is this plugin the best popup plugin in the world? =
 
 Why don't you check and tell me?
 (Rumors say yes)
