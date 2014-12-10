@@ -3,7 +3,7 @@ Contributors: Kubitomakita
 Tags: popslide, popup, cookie, newsletter, conversion
 Requires at least: 3.6
 Tested up to: 4.0
-Stable tag: 1.3.2
+Stable tag: 1.4.2
 
 Popslide is better WordPress popup plugin which displays fully customisable bar whereever you want.
 
@@ -17,6 +17,7 @@ Available languages:
 
 *   English (author)
 *   Polish (author)
+*   French (Louis Houde - [Conception site web Québec](http://barreoblique.ca/ "Conception site web Québec"))
 
 Want to use this plugin in your language? Send me your translation and get your website link here!
 
@@ -44,6 +45,9 @@ Why don't you check and tell me?
 4. Front-end
 
 == Changelog ==
+
+= 1.4.2 =
+* Added French translation, thanks to Louis Houde
 
 = 1.3.2 =
 * Fixed close button when user is not logged in
