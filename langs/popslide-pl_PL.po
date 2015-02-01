@@ -1,0 +1,319 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: popslide\n"
+"POT-Creation-Date: 2015-02-01 08:50+0100\n"
+"PO-Revision-Date: 2015-02-01 08:54+0100\n"
+"Last-Translator: Jakub Mikita <kuba@wordpressgeeks.co.uk>\n"
+"Language-Team: Kuba Mikita <contact@jmikita.com>\n"
+"Language: Polish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../backend.php:93
+msgid "Save"
+msgstr "Zapisz"
+
+#: ../backend.php:97
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: ../backend.php:98
+msgid "Content"
+msgstr "Zawartość"
+
+#: ../backend.php:99
+msgid "Styling"
+msgstr "Style"
+
+#: ../backend.php:101
+msgid "PRO"
+msgstr "PRO"
+
+#: ../backend.php:134
+msgid "Status"
+msgstr "Status"
+
+#: ../backend.php:138 ../backend.php:149
+msgid "Active"
+msgstr "Aktywne"
+
+#: ../backend.php:140
+msgid "Popslide will display on the front-end"
+msgstr "Popslide będzie wyświetlany na stronie"
+
+#: ../backend.php:145
+msgid "Preview"
+msgstr "Podgląd"
+
+#: ../backend.php:151
+msgid ""
+"Popslide (if active) will be displayed only for administrators. Cookie (if "
+"active) will be not saved"
+msgstr ""
+"Popslide (jeśli aktywny) będzie wyświetlany tylko dla administratorów. "
+"Ciasteczko (jeśli aktywne) nie będzie zapisane"
+
+#: ../backend.php:156
+msgid "Mobile"
+msgstr "Urządzenia przenośne"
+
+#: ../backend.php:160
+msgid "Display for mobile"
+msgstr "Wyświetlaj dla urządzeń przenośnych"
+
+#: ../backend.php:166
+msgid "Cookie"
+msgstr "Ciasteczko"
+
+#: ../backend.php:170
+msgid "Save cookie on visitor's machine"
+msgstr "Zapisz ciasteczko na komputerze odwiedzającego"
+
+#: ../backend.php:173
+#, php-format
+msgid "Save for %s days"
+msgstr "Zapisz na %s dni"
+
+#: ../backend.php:174
+msgid "This will prevent displaying popslide on every visit"
+msgstr "To zapobiegnie wyświetlaniu popslide przy każdym odświeżeniu strony"
+
+#: ../backend.php:176
+msgid "Cookie name"
+msgstr "Nazwa ciasteczka"
+
+#: ../backend.php:176 ../backend.php:247 ../backend.php:328
+msgid "Get the PRO version"
+msgstr "Aktywuj wersję PRO"
+
+#: ../backend.php:177
+msgid ""
+"Changing cookie name will reset saved cookies on users machine and Popslide "
+"will be displayed again"
+msgstr ""
+"Zmiana nazwy ciasteczka zresetuje te już zapisane na komputerach "
+"użytkowników i Popslide wyświerli się ponownie"
+
+#: ../backend.php:183
+msgid "Display rule"
+msgstr "Reguła wyświetlania"
+
+#: ../backend.php:187
+#, php-format
+msgid "On %s pageview"
+msgstr "Przy %s wyświetleniu"
+
+#: ../backend.php:192
+msgid "and"
+msgstr "i"
+
+#: ../backend.php:193
+msgid "or"
+msgstr "lub"
+
+#: ../backend.php:198
+#, php-format
+msgid "after %s seconds on the page"
+msgstr "po %s sekundach spędzonych na stronie"
+
+#: ../backend.php:202
+msgid "spent on"
+msgstr "spędzonych"
+
+#: ../backend.php:204
+msgid "the current page"
+msgstr "na obecnej stronie"
+
+#: ../backend.php:205
+msgid "the website"
+msgstr "w witrynie"
+
+#: ../backend.php:244
+msgid "Background color"
+msgstr "Kolor tła"
+
+#: ../backend.php:252
+msgid "Font color"
+msgstr "Kolor czcionki"
+
+#: ../backend.php:259
+msgid "Position"
+msgstr "Pozycja"
+
+#: ../backend.php:261
+msgid "top"
+msgstr "góra"
+
+#: ../backend.php:262
+msgid "bottom"
+msgstr "dół"
+
+#: ../backend.php:268
+msgid "Align"
+msgstr "Wyrównanie"
+
+#: ../backend.php:271
+msgid "Left"
+msgstr "Do lewej"
+
+#: ../backend.php:272
+msgid "Center"
+msgstr "Do środka"
+
+#: ../backend.php:273
+msgid "Right"
+msgstr "Do prawej"
+
+#: ../backend.php:275
+msgid "Whole popslide"
+msgstr "Całe okno popslide"
+
+#: ../backend.php:280
+msgid "Width"
+msgstr "Szerokość"
+
+#: ../backend.php:287
+msgid "Display setting"
+msgstr "Ustawienie wyświetlania"
+
+#: ../backend.php:290
+msgid "Cover"
+msgstr "Przykryj"
+
+#: ../backend.php:291
+msgid "Push"
+msgstr "Wypchnij"
+
+#: ../backend.php:297
+msgid "Padding"
+msgstr "Padding"
+
+#: ../backend.php:299
+msgid "Top: "
+msgstr "Górny: "
+
+#: ../backend.php:300
+msgid "Right: "
+msgstr "Prawy: "
+
+#: ../backend.php:301
+msgid "Bottom: "
+msgstr "Dolny: "
+
+#: ../backend.php:302
+msgid "Left: "
+msgstr "Lewy: "
+
+#: ../backend.php:307
+msgid "Close button position"
+msgstr "Pozycja przycisku zamykania"
+
+#: ../backend.php:309
+msgid "top left"
+msgstr "górny lewy róg"
+
+#: ../backend.php:310
+msgid "top right"
+msgstr "górny prawy róg"
+
+#: ../backend.php:311
+msgid "bottom right"
+msgstr "dolny prawy róg"
+
+#: ../backend.php:312
+msgid "bottom left"
+msgstr "dolny lewy róg"
+
+#: ../backend.php:318
+msgid "Close button size"
+msgstr "Rozmiar przycisku zamykania"
+
+#: ../backend.php:325
+msgid "Close button color"
+msgstr "Kolor przycisku zamykania"
+
+#: ../backend.php:333
+msgid "Animation"
+msgstr "Animacja"
+
+#: ../backend.php:336
+msgid "Type"
+msgstr "Typ"
+
+#: ../backend.php:377
+msgid "Duration"
+msgstr "Czas trwania"
+
+#: ../backend.php:384
+msgid "Custom CSS"
+msgstr "Własny CSS"
+
+#: ../backend.php:388
+msgid "Enable custom CSS"
+msgstr "Włącz własny CSS"
+
+#: ../backend.php:391
+msgid "Custom class"
+msgstr "Własne klasy"
+
+#: ../backend.php:409
+msgid "PRO version now available almost for free. Lifetime."
+msgstr "Wersja PRO jest dostępna prawie za darmo. Dożywotnio."
+
+#: ../backend.php:411
+msgid ""
+"All you have to do is spread the good word about Popslide on your Facebook "
+"wall."
+msgstr ""
+"Jedyne co musisz zrobić do udostępnić dobre słowo o wtyczce na Twojej "
+"tablicy na Facebooku."
+
+#: ../backend.php:413
+msgid "Seriously, that's all! No money required!"
+msgstr "Serio, to wszystko! Żadnych pieniędzy!"
+
+#: ../backend.php:415
+msgid ""
+"But don't wait to much! Next release will propably come with Pay to Get "
+"feature, so I'm offering it now for (almost) free"
+msgstr ""
+"Ale nie zwlekaj! Następna wersja prawdopodobnie będzie już wymagała "
+"płatności za to co teraz dostajesz za (prawie) darmo"
+
+#: ../backend.php:418
+msgid "Share"
+msgstr "Udostępnij"
+
+#: ../backend.php:419
+msgid "and then"
+msgstr "a potem"
+
+#: ../backend.php:420
+msgid "paste the activation code"
+msgstr "wklej kod aktywacyjny"
+
+#: ../backend.php:420
+msgid "Verify"
+msgstr "Aktywuj"
+
+#: ../backend.php:448
+msgid "Error while saving settings. Please try again"
+msgstr "Błąd podczas zapisywania ustawień. Spróbuj ponownie"
+
+#: ../backend.php:452
+msgid "Settings saved."
+msgstr "Ustawienia zapisane."
+
+#: ../backend.php:460
+msgid "Code seems to be not valid. Did you copied it correctly?"
+msgstr "Kod wydaje się nie być prawidłowy. Skopiowany został poprawnie?"
+
+#: ../backend.php:464
+msgid "Boom! Done. Thanks and enjoy the PRO version!"
+msgstr "Bum! Skończone. Dzieki i życzę miłego używania wersji PRO!"
