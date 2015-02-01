@@ -402,6 +402,7 @@ class POPSLIDE_BACK {
 	}
 
 	public function display_pro_tab() {
+
 	?>
 
 		<div id="pro" class="popslide-tab">
@@ -452,7 +453,7 @@ class POPSLIDE_BACK {
 
     	if (!check_ajax_referer('popslide_save_form', 'nonce')) wp_send_json_error(__('Error while saving settings. Please try again', 'popslide'));
 
-    	update_option('popslide_settings', $popslide::merge_defaults($data, $popslide::defaults()));
+    	update_option('popslide_settings', POPSLIDE::merge_defaults($data, $popslide::defaults()));
 
     	wp_send_json_success(__('Settings saved.', 'wpmngr'));
 
@@ -481,7 +482,7 @@ class POPSLIDE_BACK {
 
     	}
 
-    	return $popslide::merge_defaults($data, $popslide::defaults());
+    	return POPSLIDE::merge_defaults($data, $popslide::defaults());
 
 	}
 

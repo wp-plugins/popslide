@@ -4,7 +4,7 @@ Plugin Name: Popslide
 Description: Best popup slider plugin
 Author: Kuba Mikita
 Author URI: http://www.wpart.pl
-Version: 2.0.1
+Version: 2.0.3
 License: GPL2
 Text Domain: popslide
 */
