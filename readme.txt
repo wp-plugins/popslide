@@ -1,4 +1,4 @@
-=== Popslide ===
+=== Popslide - popup alternative ===
 Contributors: Kubitomakita
 Tags: popslide, popup, cookie, newsletter, conversion
 Requires at least: 3.6
