@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: popslide\n"
 "POT-Creation-Date: 2015-02-01 08:50+0100\n"
-"PO-Revision-Date: 2015-02-01 08:50+0100\n"
+"PO-Revision-Date: 2015-02-01 03:46-0500\n"
 "Last-Translator: Jakub Mikita <kuba@wordpressgeeks.co.uk>\n"
 "Language-Team: Louis Houde <nospam@barreoblique.ca>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.7.1\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -34,7 +34,7 @@ msgstr "Style"
 
 #: ../backend.php:101
 msgid "PRO"
-msgstr ""
+msgstr "PRO"
 
 #: ../backend.php:134
 msgid "Status"
@@ -87,17 +87,19 @@ msgstr "Ceci empêchera l'affichage de Popslide à chaque visite"
 
 #: ../backend.php:176
 msgid "Cookie name"
-msgstr ""
+msgstr "Le nom de cookie"
 
 #: ../backend.php:176 ../backend.php:247 ../backend.php:328
 msgid "Get the PRO version"
-msgstr ""
+msgstr "Obtenez la version PRO"
 
 #: ../backend.php:177
 msgid ""
 "Changing cookie name will reset saved cookies on users machine and Popslide "
 "will be displayed again"
 msgstr ""
+"Changement de nom de cookie réinitialisera les cookies sauvés sur les "
+"ordinateurs des utilisateurs et Popslide sera affiché à nouveau"
 
 #: ../backend.php:183
 msgid "Display rule"
@@ -263,39 +265,44 @@ msgstr "Classe personnalisée"
 
 #: ../backend.php:409
 msgid "PRO version now available almost for free. Lifetime."
-msgstr ""
+msgstr "Version PRO maintenant disponible pour presque rien. À vie."
 
 #: ../backend.php:411
 msgid ""
 "All you have to do is spread the good word about Popslide on your Facebook "
 "wall."
 msgstr ""
+"Tout ce que vous avez à faire est d'écrire un bon mot pour Popslide sur "
+"votre mur Facebook."
 
 #: ../backend.php:413
 msgid "Seriously, that's all! No money required!"
-msgstr ""
+msgstr "Sérieusement, ce est tout! Pas d'argent nécessaire!"
 
 #: ../backend.php:415
 msgid ""
 "But don't wait to much! Next release will propably come with Pay to Get "
 "feature, so I'm offering it now for (almost) free"
 msgstr ""
+"Mais ne attendez pas pour autant! La prochaine version sera probablement "
+"payante afin d'obtenir les fonctions.  Donc, ce que je propose est "
+"maintenant est (presque) gratuit!"
 
 #: ../backend.php:418
 msgid "Share"
-msgstr ""
+msgstr "Partager"
 
 #: ../backend.php:419
 msgid "and then"
-msgstr ""
+msgstr "Et ensuite"
 
 #: ../backend.php:420
 msgid "paste the activation code"
-msgstr ""
+msgstr "collez le code d'activation"
 
 #: ../backend.php:420
 msgid "Verify"
-msgstr ""
+msgstr "Vérifiez"
 
 #: ../backend.php:448
 msgid "Error while saving settings. Please try again"
@@ -307,8 +314,8 @@ msgstr "Réglages enregistrés."
 
 #: ../backend.php:460
 msgid "Code seems to be not valid. Did you copied it correctly?"
-msgstr ""
+msgstr "Le code ne semble pas valide. L'avez-vous copié correctement?"
 
 #: ../backend.php:464
 msgid "Boom! Done. Thanks and enjoy the PRO version!"
-msgstr ""
+msgstr "Boom! Terminé. Merci et profitez de la version PRO!"
