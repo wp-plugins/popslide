@@ -48,3 +48,17 @@
 .popslide_custom_css_more {
 	margin-top: 10px;
 }
+
+.popslide-verify-code {
+	width: 250px;
+}
+
+/* MIXED */
+
+.popslide-ajax-response-wrapper {
+	display: none;
+}
+
+.popslide-go-to-pro {
+	vertical-align: middle;
+}
