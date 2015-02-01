@@ -449,7 +449,7 @@ class POPSLIDE_BACK {
 		// magic quotes fix
 		$data['content'] = stripslashes( $data['content'] );
 
-		$data = $this->filter_pro_data($data);
+		// $data = $this->filter_pro_data($data);
 
     	if (!check_ajax_referer('popslide_save_form', 'nonce')) wp_send_json_error(__('Error while saving settings. Please try again', 'popslide'));
 

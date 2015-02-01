@@ -97,7 +97,7 @@ class POPSLIDE_FRONT {
 						<div class="popslide-close <?php echo $this->settings->close_button->position; ?>"><span class="dashicons dashicons-no"></span></div>
 					<?php endif ?>
 						<div class="popslide-content">
-							<?php echo do_shortcode( wpautop( $this->settings->content ) ); ?>
+							<?php echo do_shortcode( shortcode_unautop( wptexturize( wpautop( $this->settings->content ) ) ) ); ?>
 						</div>
 					<?php if ($this->settings->close_button->position == 'top_right' || $this->settings->close_button->position == 'bottom_right'): ?>
 						<div class="popslide-close <?php echo $this->settings->close_button->position; ?>"><span class="dashicons dashicons-no"></span></div>
