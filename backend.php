@@ -465,7 +465,7 @@ class POPSLIDE_BACK {
 
     	if ( $_POST['code'] != md5(parse_url(site_url(), PHP_URL_HOST)) ) wp_send_json_error(__('Code seems to be not valid. Did you copied it correctly?', 'popslide'));
 
-    	file_put_contents(POPSLIDE_DIR.'/.lic', $_POST['code']);
+    	update_option('popslide_lic', $_POST['code']);
 
     	wp_send_json_success(__('Boom! Done. Thanks and enjoy the PRO version!', 'wpmngr'));
 
