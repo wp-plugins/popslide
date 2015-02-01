@@ -453,7 +453,7 @@ class POPSLIDE_BACK {
 
     	if (!check_ajax_referer('popslide_save_form', 'nonce')) wp_send_json_error(__('Error while saving settings. Please try again', 'popslide'));
 
-    	update_option('popslide_settings', POPSLIDE::merge_defaults($data, $popslide::defaults()));
+    	update_option('popslide_settings', POPSLIDE::merge_defaults($data, POPSLIDE::defaults()));
 
     	wp_send_json_success(__('Settings saved.', 'wpmngr'));
 
@@ -482,7 +482,7 @@ class POPSLIDE_BACK {
 
     	}
 
-    	return POPSLIDE::merge_defaults($data, $popslide::defaults());
+    	return POPSLIDE::merge_defaults($data, POPSLIDE::defaults());
 
 	}
 
