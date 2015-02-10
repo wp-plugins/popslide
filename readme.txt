@@ -68,6 +68,7 @@ Why don't you check and tell me?
 2. Settings - Content
 3. Settings - Styling
 4. Front-end
+5. Custom look? No problem! This is what Ellie done with Popslide on fieifoto.com
 
 == Changelog ==
 
