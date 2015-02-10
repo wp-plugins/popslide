@@ -38,6 +38,12 @@ Minimalistic, lightweight, optimised.
 
 Please visit the Screenshots tab to see how it looks.
 
+= PRO version =
+
+How to get? Easy. Just go to the PRO tab on the plugin's admin page and share the good word about Popslide on the Facebook.
+
+That's all!
+
 = Available languages =
 
 *   English (author)
