@@ -47,7 +47,7 @@ That's all!
 = Available languages =
 
 *   English (author)
-*   Polish (author)
+*   Polish (Kuba Mikita - [Sztuka WordPress](http://www.wpart.pl/ "Sztuka WordPress"))
 *   French (Louis Houde - [Conception site web Québec](http://barreoblique.ca/ "Conception site web Québec"))
 
 Want to use this plugin in your language? Send me your translation and get your website link here!
