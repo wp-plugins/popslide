@@ -62,3 +62,7 @@
 .popslide-go-to-pro {
 	vertical-align: middle;
 }
+
+.popslide-tab #poststuff h3 {
+	padding-left: 0;
+}

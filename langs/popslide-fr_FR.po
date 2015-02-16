@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: popslide\n"
-"POT-Creation-Date: 2015-02-01 08:50+0100\n"
-"PO-Revision-Date: 2015-02-01 03:46-0500\n"
+"POT-Creation-Date: 2015-02-16 10:37+0100\n"
+"PO-Revision-Date: 2015-02-16 10:37+0100\n"
 "Last-Translator: Jakub Mikita <kuba@wordpressgeeks.co.uk>\n"
 "Language-Team: Louis Houde <nospam@barreoblique.ca>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -263,11 +263,11 @@ msgstr "Activer CSS personnalisé"
 msgid "Custom class"
 msgstr "Classe personnalisée"
 
-#: ../backend.php:409
+#: ../backend.php:416
 msgid "PRO version now available almost for free. Lifetime."
 msgstr "Version PRO maintenant disponible pour presque rien. À vie."
 
-#: ../backend.php:411
+#: ../backend.php:418
 msgid ""
 "All you have to do is spread the good word about Popslide on your Facebook "
 "wall."
@@ -275,11 +275,11 @@ msgstr ""
 "Tout ce que vous avez à faire est d'écrire un bon mot pour Popslide sur "
 "votre mur Facebook."
 
-#: ../backend.php:413
+#: ../backend.php:420
 msgid "Seriously, that's all! No money required!"
 msgstr "Sérieusement, ce est tout! Pas d'argent nécessaire!"
 
-#: ../backend.php:415
+#: ../backend.php:422
 msgid ""
 "But don't wait to much! Next release will propably come with Pay to Get "
 "feature, so I'm offering it now for (almost) free"
@@ -288,34 +288,46 @@ msgstr ""
 "payante afin d'obtenir les fonctions.  Donc, ce que je propose est "
 "maintenant est (presque) gratuit!"
 
-#: ../backend.php:418
+#: ../backend.php:425
 msgid "Share"
 msgstr "Partager"
 
-#: ../backend.php:419
+#: ../backend.php:426
 msgid "and then"
 msgstr "Et ensuite"
 
-#: ../backend.php:420
+#: ../backend.php:427
 msgid "paste the activation code"
 msgstr "collez le code d'activation"
 
-#: ../backend.php:420
+#: ../backend.php:427
 msgid "Verify"
 msgstr "Vérifiez"
 
-#: ../backend.php:448
+#: ../backend.php:436
+msgid "Bundled with PRO"
+msgstr ""
+
+#: ../backend.php:439
+msgid "Ability to change cookie name"
+msgstr ""
+
+#: ../backend.php:440
+msgid "Color transparency settings"
+msgstr ""
+
+#: ../backend.php:479
 msgid "Error while saving settings. Please try again"
 msgstr "Erreur lors de la sauvegarde, veuillez réessayer"
 
-#: ../backend.php:452
+#: ../backend.php:483
 msgid "Settings saved."
 msgstr "Réglages enregistrés."
 
-#: ../backend.php:460
+#: ../backend.php:491
 msgid "Code seems to be not valid. Did you copied it correctly?"
 msgstr "Le code ne semble pas valide. L'avez-vous copié correctement?"
 
-#: ../backend.php:464
+#: ../backend.php:495
 msgid "Boom! Done. Thanks and enjoy the PRO version!"
 msgstr "Boom! Terminé. Merci et profitez de la version PRO!"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: popslide\n"
-"POT-Creation-Date: 2015-02-01 08:50+0100\n"
-"PO-Revision-Date: 2015-02-01 10:03+0100\n"
+"POT-Creation-Date: 2015-02-16 10:36+0100\n"
+"PO-Revision-Date: 2015-02-16 10:37+0100\n"
 "Last-Translator: Jakub Mikita <kuba@wordpressgeeks.co.uk>\n"
 "Language-Team: Kuba Mikita <contact@jmikita.com>\n"
 "Language: Polish\n"
@@ -262,11 +262,11 @@ msgstr "Włącz własny CSS"
 msgid "Custom class"
 msgstr "Własne klasy"
 
-#: ../backend.php:409
+#: ../backend.php:416
 msgid "PRO version now available almost for free. Lifetime."
 msgstr "Wersja PRO jest dostępna prawie za darmo. Dożywotnio."
 
-#: ../backend.php:411
+#: ../backend.php:418
 msgid ""
 "All you have to do is spread the good word about Popslide on your Facebook "
 "wall."
@@ -274,11 +274,11 @@ msgstr ""
 "Jedyne co musisz zrobić do udostępnić dobre słowo o wtyczce na Twojej "
 "tablicy na Facebooku."
 
-#: ../backend.php:413
+#: ../backend.php:420
 msgid "Seriously, that's all! No money required!"
 msgstr "Serio, to wszystko! Żadnych pieniędzy!"
 
-#: ../backend.php:415
+#: ../backend.php:422
 msgid ""
 "But don't wait to much! Next release will propably come with Pay to Get "
 "feature, so I'm offering it now for (almost) free"
@@ -286,34 +286,46 @@ msgstr ""
 "Ale nie zwlekaj! Następna wersja prawdopodobnie będzie już wymagała "
 "płatności za to co teraz dostajesz za (prawie) darmo"
 
-#: ../backend.php:418
+#: ../backend.php:425
 msgid "Share"
 msgstr "Udostępnij"
 
-#: ../backend.php:419
+#: ../backend.php:426
 msgid "and then"
 msgstr "a potem"
 
-#: ../backend.php:420
+#: ../backend.php:427
 msgid "paste the activation code"
 msgstr "wklej kod aktywacyjny"
 
-#: ../backend.php:420
+#: ../backend.php:427
 msgid "Verify"
 msgstr "Aktywuj"
 
-#: ../backend.php:448
+#: ../backend.php:436
+msgid "Bundled with PRO"
+msgstr "W wersji PRO"
+
+#: ../backend.php:439
+msgid "Ability to change cookie name"
+msgstr "Możliwość zmiany nazwy ciasteczka"
+
+#: ../backend.php:440
+msgid "Color transparency settings"
+msgstr "Ustawienia przezroczystości koloru"
+
+#: ../backend.php:479
 msgid "Error while saving settings. Please try again"
 msgstr "Błąd podczas zapisywania ustawień. Spróbuj ponownie"
 
-#: ../backend.php:452
+#: ../backend.php:483
 msgid "Settings saved."
 msgstr "Ustawienia zapisane."
 
-#: ../backend.php:460
+#: ../backend.php:491
 msgid "Code seems to be not valid. Did you copied it correctly?"
 msgstr "Kod wydaje się nie być prawidłowy. Skopiowany został poprawnie?"
 
-#: ../backend.php:464
+#: ../backend.php:495
 msgid "Boom! Done. Thanks and enjoy the PRO version!"
 msgstr "Bum! Skończone. Dzieki i życzę miłego używania wersji PRO!"

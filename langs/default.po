@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: popslide\n"
-"POT-Creation-Date: 2015-02-01 08:50+0100\n"
-"PO-Revision-Date: 2015-02-01 08:50+0100\n"
+"POT-Creation-Date: 2015-02-16 10:36+0100\n"
+"PO-Revision-Date: 2015-02-16 10:36+0100\n"
 "Last-Translator: Jakub Mikita <kuba@wordpressgeeks.co.uk>\n"
 "Language-Team: Kuba Mikita <contact@jmikita.com>\n"
 "Language: Polish\n"
@@ -258,54 +258,66 @@ msgstr ""
 msgid "Custom class"
 msgstr ""
 
-#: ../backend.php:409
+#: ../backend.php:416
 msgid "PRO version now available almost for free. Lifetime."
 msgstr ""
 
-#: ../backend.php:411
+#: ../backend.php:418
 msgid ""
 "All you have to do is spread the good word about Popslide on your Facebook "
 "wall."
 msgstr ""
 
-#: ../backend.php:413
+#: ../backend.php:420
 msgid "Seriously, that's all! No money required!"
 msgstr ""
 
-#: ../backend.php:415
+#: ../backend.php:422
 msgid ""
 "But don't wait to much! Next release will propably come with Pay to Get "
 "feature, so I'm offering it now for (almost) free"
 msgstr ""
 
-#: ../backend.php:418
+#: ../backend.php:425
 msgid "Share"
 msgstr ""
 
-#: ../backend.php:419
+#: ../backend.php:426
 msgid "and then"
 msgstr ""
 
-#: ../backend.php:420
+#: ../backend.php:427
 msgid "paste the activation code"
 msgstr ""
 
-#: ../backend.php:420
+#: ../backend.php:427
 msgid "Verify"
 msgstr ""
 
-#: ../backend.php:448
+#: ../backend.php:436
+msgid "Bundled with PRO"
+msgstr ""
+
+#: ../backend.php:439
+msgid "Ability to change cookie name"
+msgstr ""
+
+#: ../backend.php:440
+msgid "Color transparency settings"
+msgstr ""
+
+#: ../backend.php:479
 msgid "Error while saving settings. Please try again"
 msgstr ""
 
-#: ../backend.php:452
+#: ../backend.php:483
 msgid "Settings saved."
 msgstr ""
 
-#: ../backend.php:460
+#: ../backend.php:491
 msgid "Code seems to be not valid. Did you copied it correctly?"
 msgstr ""
 
-#: ../backend.php:464
+#: ../backend.php:495
 msgid "Boom! Done. Thanks and enjoy the PRO version!"
 msgstr ""

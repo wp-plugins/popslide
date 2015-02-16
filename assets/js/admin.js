@@ -47,6 +47,8 @@ jQuery(document).ready(function($) {
 
 	$('.popslide-nav .nav-tab').click(function(event) {
 
+		event.preventDefault();
+
 		$('.nav-tab').removeClass('nav-tab-active');
 		$(this).addClass('nav-tab-active');
 

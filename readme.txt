@@ -1,53 +1,22 @@
-=== Popslide - popup alternative ===
+=== Popslide ===
 Contributors: Kubitomakita
-Tags: popslide, popup, cookie, newsletter, conversion, popup alternative, bar
+Tags: popslide, popup, cookie, newsletter, conversion
 Requires at least: 3.6
 Tested up to: 4.1
-Stable tag: 2.1.0
+Stable tag: 2.1.2
 
 Popslide is better WordPress popup plugin which displays fully customisable bar whereever you want.
 
 == Description ==
 
-= The best popup slider plugin =
-
 Display popslide and increase your newsletter signups conversions!
 
-Popslide is an alternative for annoying popups. It's simple bar (or box) with any content which slides onto the screen.
+This plugin comes with built in integration with Mailpoet newsletter plugin however you can style your own forms by adding custom CSS via beautiful CSS editor
 
-Minimalistic, lightweight, optimised.
-
-= Features =
-
-* Enabling/disabling
-* Preview mode
-* Cookie with time interval
-* Cookie name (PRO)
-* Display rules including page views and time spend on page
-* WYSIWYG editor
-* Background, font and close button colors
-* Transparency setting (PRO)
-* Position setting (top or bottom of the window)
-* Alignment (Left, center, right)
-* Width setting
-* Padding setting with few units selection
-* Position and size settings of the close button
-* Animation duration setting
-* Custom CSS and custom class setting
-* Built in Mailpoet Newsletter signup form styles
-
-Please visit the Screenshots tab to see how it looks.
-
-= PRO version =
-
-How to get PRO? Easy. Just go to the PRO tab on the plugin's admin page and share the good word about Popslide on the Facebook.
-
-That's all!
-
-= Available languages =
+Available languages:
 
 *   English (author)
-*   Polish (Kuba Mikita - [Sztuka WordPress](http://www.wpart.pl/ "Sztuka WordPress"))
+*   Polish (author)
 *   French (Louis Houde - [Conception site web Québec](http://barreoblique.ca/ "Conception site web Québec"))
 
 Want to use this plugin in your language? Send me your translation and get your website link here!
@@ -74,9 +43,12 @@ Why don't you check and tell me?
 2. Settings - Content
 3. Settings - Styling
 4. Front-end
-5. Custom look? No problem! This is what Ellie done with Popslide on fieifoto.com
 
 == Changelog ==
+
+= 2.1.2 =
+* Tab switch fix
+* What's in PRO information in the PRO tab
 
 = 2.1.0 =
 * Changed way the licence hash is stored

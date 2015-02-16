@@ -407,21 +407,46 @@ class POPSLIDE_BACK {
 
 		<div id="pro" class="popslide-tab">
 
-			<h3><?php _e('PRO version now available almost for free. Lifetime.', 'popslide'); ?></h3>
+			<div id="poststuff">
+				
+				<div id="post-body" class="columns-2">
 
-			<p><?php _e('All you have to do is spread the good word about Popslide on your Facebook wall.', 'popslide'); ?></p>
+					<div id="post-body-content">
+						
+						<h3><?php _e('PRO version now available almost for free. Lifetime.', 'popslide'); ?></h3>
 
-			<p><?php _e('Seriously, that\'s all! No money required!', 'popslide'); ?></p>
+						<p><?php _e('All you have to do is spread the good word about Popslide on your Facebook wall.', 'popslide'); ?></p>
 
-			<p><?php _e('But don\'t wait to much! Next release will propably come with Pay to Get feature, so I\'m offering it now for (almost) free', 'popslide'); ?></p>
+						<p><?php _e('Seriously, that\'s all! No money required!', 'popslide'); ?></p>
 
-			<p>
-				<a href="http://www.wpart.pl/popslide-pro" class="button button-primary" target="_blank"><?php _e('Share', 'popslide'); ?></a> 
-				<?php _e('and then', 'popslide'); ?> 
-				<input type="text" class="popslide-verify-code" placeholder="<?php _e('paste the activation code', 'popslide'); ?>"><a href="#" class="button button-secondary popslide-verify-share" data-nonce="<?php echo wp_create_nonce('popslide_verify_share'); ?>"><?php _e('Verify', 'popslide'); ?></a>
-			</p>
+						<p><?php _e('But don\'t wait to much! Next release will propably come with Pay to Get feature, so I\'m offering it now for (almost) free', 'popslide'); ?></p>
 
-			<p class="popslide-ajax-response-wrapper"></p>
+						<p>
+							<a href="http://www.wpart.pl/popslide-pro" class="button button-primary" target="_blank"><?php _e('Share', 'popslide'); ?></a> 
+							<?php _e('and then', 'popslide'); ?> 
+							<input type="text" class="popslide-verify-code" placeholder="<?php _e('paste the activation code', 'popslide'); ?>"><a href="#" class="button button-secondary popslide-verify-share" data-nonce="<?php echo wp_create_nonce('popslide_verify_share'); ?>"><?php _e('Verify', 'popslide'); ?></a>
+						</p>
+
+						<p class="popslide-ajax-response-wrapper"></p>
+
+					</div>
+
+					<div id="postbox-container-1" class="postbox-container">
+
+					<h3><?php _e('Bundled with PRO', 'popslide'); ?></h3>
+
+					<ul>
+						<li><?php _e('Ability to change cookie name', 'popslide'); ?></li>
+						<li><?php _e('Color transparency settings', 'popslide'); ?></li>
+					</ul>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			
 
 		</div>
 
