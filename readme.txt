@@ -1,6 +1,6 @@
-=== Popslide ===
+=== Popslide - popup alternative ===
 Contributors: Kubitomakita
-Tags: popslide, popup, cookie, newsletter, conversion
+Tags: popslide, popup, cookie, newsletter, conversion, popup alternative, bar
 Requires at least: 3.6
 Tested up to: 4.1
 Stable tag: 2.1.2
@@ -9,14 +9,45 @@ Popslide is better WordPress popup plugin which displays fully customisable bar 
 
 == Description ==
 
+= The best popup slider plugin =
+
 Display popslide and increase your newsletter signups conversions!
 
-This plugin comes with built in integration with Mailpoet newsletter plugin however you can style your own forms by adding custom CSS via beautiful CSS editor
+Popslide is an alternative for annoying popups. It's simple bar (or box) with any content which slides onto the screen.
 
-Available languages:
+Minimalistic, lightweight, optimised.
+
+= Features =
+
+* Enabling/disabling
+* Preview mode
+* Cookie with time interval
+* Cookie name (PRO)
+* Display rules including page views and time spend on page
+* WYSIWYG editor
+* Background, font and close button colors
+* Transparency setting (PRO)
+* Position setting (top or bottom of the window)
+* Alignment (Left, center, right)
+* Width setting
+* Padding setting with few units selection
+* Position and size settings of the close button
+* Animation duration setting
+* Custom CSS and custom class setting
+* Built in Mailpoet Newsletter signup form styles
+
+Please visit the Screenshots tab to see how it looks.
+
+= PRO version =
+
+How to get PRO? Easy. Just go to the PRO tab on the plugin's admin page and share the good word about Popslide on the Facebook.
+
+That's all!
+
+= Available languages =
 
 *   English (author)
-*   Polish (author)
+*   Polish (Kuba Mikita - [Sztuka WordPress](http://www.wpart.pl/ "Sztuka WordPress"))
 *   French (Louis Houde - [Conception site web Québec](http://barreoblique.ca/ "Conception site web Québec"))
 
 Want to use this plugin in your language? Send me your translation and get your website link here!
