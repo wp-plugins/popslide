@@ -6,6 +6,10 @@
 	min-height: 250px !important;
 }
 
+.popslide_cookie_more {
+	padding-top: 5px;
+}
+
 /* fields */
 .popslide-tab select {
 	position: relative;

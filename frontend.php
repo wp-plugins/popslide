@@ -37,7 +37,7 @@ class POPSLIDE_FRONT {
 
 	}
 
-		/**
+	/**
 	 * Load front assets
 	 * @return void
 	 */
@@ -56,7 +56,11 @@ class POPSLIDE_FRONT {
 			'timeout' => ($this->settings->after->rule == 'or' && $_SESSION['popslide_hits'] >= $this->settings->after->hits) ? 1000 : 1000 * $this->settings->after->seconds, // 1 second after pageload on display page
 			'position' => $this->settings->position,
 			// 'animation_type' => $this->settings->animation->type,
-			'animation_duration' => $this->settings->animation->duration
+			'animation_duration' => $this->settings->animation->duration,
+			'custom_target' => array(
+				'targets' => $this->settings->cookie->custom_target,
+				'close' => $this->settings->cookie->custom_target_close
+			)
 		));
 
 	}
@@ -170,6 +174,7 @@ class POPSLIDE_FRONT {
 
 			#popslide .popslide-close {
 				display: table-cell;
+				cursor: pointer;
 				padding: <?php echo $this->settings->padding->top->value.$this->settings->padding->top->unit.' '.$this->settings->padding->right->value.$this->settings->padding->right->unit.' '.$this->settings->padding->bottom->value.$this->settings->padding->bottom->unit.' '.$this->settings->padding->left->value.$this->settings->padding->left->unit; ?>;
 				color: <?php echo $this->settings->close_button->color; ?>;
 				width: <?php echo $this->settings->close_button->font_size; ?>px;

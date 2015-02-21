@@ -170,11 +170,34 @@ class POPSLIDE_BACK {
 							<?php _e('Save cookie on visitor\'s machine', 'popslide'); ?>
 						</label>
 						<div class="popslide_cookie_more" style="<?php if (!isset($this->settings->cookie->active) || $this->settings->cookie->active != 'true') echo 'display: none;'; ?>">
-							<label for="popslide_cookie_days"><?php printf(__('Save for %s days', 'popslide'), '<input id="popslide_cookie_days" type="number" min="1" required="required" class="popslide-number-input" name="cookie[days]" value="'.$this->settings->cookie->days.'" />'); ?></label>
+
+							<label for="popslide_cookie_days">
+								<?php printf(__('Save for %s days', 'popslide'), '<input id="popslide_cookie_days" type="number" min="1" required="required" class="popslide-number-input" name="cookie[days]" value="'.$this->settings->cookie->days.'" />'); ?>
+							</label>
 							<p class="description"><?php _e('This will prevent displaying popslide on every visit', 'popslide'); ?></p>
+
 							<br>
-							<label for="popslide_cookie_name"><?php _e('Cookie name', 'popslide') ?>: <input id="popslide_cookie_name" type="text" name="cookie[name]" <?php echo $disabled; ?> value="<?php echo $this->settings->cookie->name; ?>" /> <?php if (!$popslide->is_pro()) : ?><a href="#" class="popslide-go-to-pro dashicons dashicons-info" title="<?php _e('Get the PRO version', 'popslide') ?>"></a><?php endif; ?></label>
+
+							<label for="popslide_cookie_name">
+								<?php _e('Cookie name', 'popslide') ?>: 
+								<input id="popslide_cookie_name" type="text" name="cookie[name]" <?php echo $disabled; ?> value="<?php echo $this->settings->cookie->name; ?>" /> 
+								<?php if (!$popslide->is_pro()) : ?><a href="#" class="popslide-go-to-pro dashicons dashicons-info" title="<?php _e('Get the PRO version', 'popslide') ?>"></a><?php endif; ?>
+							</label>
 							<p class="description"><?php _e('Changing cookie name will reset saved cookies on users machine and Popslide will be displayed again', 'popslide'); ?></p>
+
+							<!-- <br>
+
+							<label for="popslide_cookie_target">
+								<?php printf(__('Save cookie if element(s) %s clicked', 'popslide'), '<input id="popslide_cookie_target" type="text" name="cookie[custom_target]" '.$disabled.' value="'.$this->settings->cookie->custom_target.'" />'); ?>
+							</label> 
+							<?php _e('and', 'popslide'); ?> 
+							<label for="popslide_custom_target_close">
+								<input name="cookie[custom_target_close]" type="checkbox" id="popslide_custom_target_close" <?php echo $disabled; ?> value="true" <?php if (isset($this->settings->cookie->custom_target_close)) checked('true', $this->settings->cookie->custom_target_close); ?>> 
+								<?php _e('close Popslide after click', 'popslide'); ?>
+							</label> 
+							<?php if (!$popslide->is_pro()) : ?><a href="#" class="popslide-go-to-pro dashicons dashicons-info" title="<?php _e('Get the PRO version', 'popslide') ?>"></a><?php endif; ?>
+							<p class="description"><?php _e('jQuery selectors (separated with comma)', 'popslide'); ?></p> -->
+
 						</div>
 					</td>
 				</tr>
@@ -419,7 +442,7 @@ class POPSLIDE_BACK {
 
 						<p><?php _e('Seriously, that\'s all! No money required!', 'popslide'); ?></p>
 
-						<p><?php _e('But don\'t wait to much! Next release will propably come with Pay to Get feature, so I\'m offering it now for (almost) free', 'popslide'); ?></p>
+						<p><?php _e('But don\'t wait too much! Next release will propably come with Pay to Get feature, so I\'m offering it now for (almost) free', 'popslide'); ?></p>
 
 						<p>
 							<a href="http://www.wpart.pl/popslide-pro" class="button button-primary" target="_blank"><?php _e('Share', 'popslide'); ?></a> 
@@ -438,6 +461,7 @@ class POPSLIDE_BACK {
 					<ul>
 						<li><?php _e('Ability to change cookie name', 'popslide'); ?></li>
 						<li><?php _e('Color transparency settings', 'popslide'); ?></li>
+						<!-- <li><?php _e('Cookie save after custom target click', 'popslide'); ?></li> -->
 					</ul>
 
 					</div>
@@ -500,10 +524,12 @@ class POPSLIDE_BACK {
 
 		global $popslide;
 
-    	if ($popslice->is_pro()) return $data;
+    	if ($popslide->is_pro()) return $data;
     	else {
 
     		unset($data['cookie']['name']);
+    		unset($data['cookie']['custom_target']);
+    		unset($data['cookie']['custom_target_close']);
 
     	}
 

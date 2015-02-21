@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: popslide\n"
-"POT-Creation-Date: 2015-02-16 10:36+0100\n"
-"PO-Revision-Date: 2015-02-16 10:37+0100\n"
+"POT-Creation-Date: 2015-02-18 08:37+0100\n"
+"PO-Revision-Date: 2015-02-18 08:37+0100\n"
 "Last-Translator: Jakub Mikita <kuba@wordpressgeeks.co.uk>\n"
 "Language-Team: Kuba Mikita <contact@jmikita.com>\n"
 "Language: Polish\n"
@@ -279,8 +279,9 @@ msgid "Seriously, that's all! No money required!"
 msgstr "Serio, to wszystko! Żadnych pieniędzy!"
 
 #: ../backend.php:422
+#, fuzzy
 msgid ""
-"But don't wait to much! Next release will propably come with Pay to Get "
+"But don't wait too much! Next release will propably come with Pay to Get "
 "feature, so I'm offering it now for (almost) free"
 msgstr ""
 "Ale nie zwlekaj! Następna wersja prawdopodobnie będzie już wymagała "
