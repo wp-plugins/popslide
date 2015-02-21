@@ -51,7 +51,7 @@ That's all!
 *   French (Louis Houde - [Conception site web Québec](http://barreoblique.ca/ "Conception site web Québec"))
 *   Spanish ([Apasionados del Marketing](http://apasionados.es))
 *   Italian ([Francesco Giossi](http://www.giossi.com))
-*   Bengali ([Tasnimul Hasan](http://http://bhinno.net))
+*   Bengali ([Tasnimul Hasan Tauhid](http://bhinno.net))
 
 Want to use this plugin in your language? Send me your translation and get your website link here!
 
