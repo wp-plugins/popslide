@@ -2,7 +2,7 @@
 Contributors: Kubitomakita
 Tags: popslide, popup, cookie, newsletter, conversion, popup alternative, bar
 Requires at least: 3.6
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 2.4.3
 
 Popslide is better WordPress popup plugin which displays fully customisable bar whereever you want.
