@@ -500,6 +500,11 @@ class POPSLIDE_BACK {
 
 		// $data = $this->filter_pro_data($data);
 
+		// handle checkboxes
+		if ( ! isset( $data['cookie']['active'] ) ) {
+			$data['cookie']['active'] = 'false';
+		}
+
     	if (!check_ajax_referer('popslide_save_form', 'nonce')) wp_send_json_error(__('Error while saving settings. Please try again', 'popslide'));
 
     	update_option('popslide_settings', POPSLIDE::merge_defaults($data, POPSLIDE::defaults()));
