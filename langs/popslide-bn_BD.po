@@ -1,0 +1,348 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: popslide\n"
+"POT-Creation-Date: 2015-02-21 13:53+0100\n"
+"PO-Revision-Date: 2015-02-21 13:53+0100\n"
+"Last-Translator: Jakub Mikita <kuba@wordpressgeeks.co.uk>\n"
+"Language-Team: Bhinno Language Team <ln@bhinno.net>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../backend.php:93
+msgid "Save"
+msgstr "সংরক্ষন করুন "
+
+#: ../backend.php:97
+msgid "Settings"
+msgstr "সেটিংস"
+
+#: ../backend.php:98
+msgid "Content"
+msgstr "কন্টেট"
+
+#: ../backend.php:99
+msgid "Styling"
+msgstr "স্ট্যাইলিং"
+
+#: ../backend.php:101
+msgid "PRO"
+msgstr "প্রো"
+
+#: ../backend.php:134
+msgid "Status"
+msgstr "অবস্থা"
+
+#: ../backend.php:138 ../backend.php:149
+msgid "Active"
+msgstr "সক্রিয়"
+
+#: ../backend.php:140
+msgid "Popslide will display on the front-end"
+msgstr "পপ-সাইড ওয়েবসাইটের সামনের(front-end) অংশে দেখা যাবে ।"
+
+#: ../backend.php:145
+msgid "Preview"
+msgstr "পূর্ব দর্শণ"
+
+#: ../backend.php:151
+msgid ""
+"Popslide (if active) will be displayed only for administrators. Cookie (if "
+"active) will be not saved"
+msgstr ""
+"পপসাইড শুধু প্রশাসকদের কছে দৃশ্যমান হবে (সক্রিয় খাকলে)। কুকি সেইভ হবে না। (সক্রিয় "
+"থাকলে)"
+
+#: ../backend.php:156
+msgid "Mobile"
+msgstr "মোবাইল"
+
+#: ../backend.php:160
+msgid "Display for mobile"
+msgstr "মোবাইলের দর্শন"
+
+#: ../backend.php:166
+msgid "Cookie"
+msgstr "কুকি"
+
+#: ../backend.php:170
+msgid "Save cookie on visitor's machine"
+msgstr "ভিসিটরের যন্ত্রে কুকি জমা রাখুন "
+
+#: ../backend.php:175
+#, php-format
+msgid "Save for %s days"
+msgstr "সংরক্ষিত %s দিনের জন্য"
+
+#: ../backend.php:177
+msgid "This will prevent displaying popslide on every visit"
+msgstr "এটি পপ-সাইডকে সব সাইটে প্রদর্শিত হওয়া থেকে বাধা প্রদান করবে ।"
+
+#: ../backend.php:182
+msgid "Cookie name"
+msgstr "কুকির নাম"
+
+#: ../backend.php:184 ../backend.php:198 ../backend.php:270 ../backend.php:351
+msgid "Get the PRO version"
+msgstr "প্রো ভার্শন নিন"
+
+#: ../backend.php:186
+msgid ""
+"Changing cookie name will reset saved cookies on users machine and Popslide "
+"will be displayed again"
+msgstr ""
+"কুকির নাম পরিবর্তন করলে ব্যবহারকারির যন্ত্রে সংরক্ষিত কুকিগুলো রিসেট হবে এবং পপসাইড "
+"আবার প্রদর্শিত হবে।"
+
+#: ../backend.php:191
+#, php-format
+msgid "Save cookie if element(s) %s clicked"
+msgstr ""
+
+#: ../backend.php:193 ../backend.php:215
+msgid "and"
+msgstr "এবং"
+
+#: ../backend.php:196
+msgid "close Popslide after click"
+msgstr ""
+
+#: ../backend.php:199
+msgid "jQuery selectors (separated with comma)"
+msgstr ""
+
+#: ../backend.php:206
+msgid "Display rule"
+msgstr "প্রদর্শনের নিয়ম"
+
+#: ../backend.php:210
+#, php-format
+msgid "On %s pageview"
+msgstr "%s পৃষ্ঠা দেখার পরে"
+
+#: ../backend.php:216
+msgid "or"
+msgstr "অথবা"
+
+#: ../backend.php:221
+#, php-format
+msgid "after %s seconds on the page"
+msgstr "পৃষ্ঠাতে %s সেকেন্ড অবস্থান করার পরে। "
+
+#: ../backend.php:225
+msgid "spent on"
+msgstr "খরচ করা হয়েছে"
+
+#: ../backend.php:227
+msgid "the current page"
+msgstr "বর্তমান পৃষ্ঠা"
+
+#: ../backend.php:228
+msgid "the website"
+msgstr "ওয়েবসাইট টি"
+
+#: ../backend.php:267
+msgid "Background color"
+msgstr "ব্যাগ্রাউন্ডের রঙ"
+
+#: ../backend.php:275
+msgid "Font color"
+msgstr "ফন্টের রঙ"
+
+#: ../backend.php:282
+msgid "Position"
+msgstr "অবস্থান"
+
+#: ../backend.php:284
+msgid "top"
+msgstr "উপরে"
+
+#: ../backend.php:285
+msgid "bottom"
+msgstr "নিচে"
+
+#: ../backend.php:291
+msgid "Align"
+msgstr "সারি"
+
+#: ../backend.php:294
+msgid "Left"
+msgstr "বামে "
+
+#: ../backend.php:295
+msgid "Center"
+msgstr "মাঝে "
+
+#: ../backend.php:296
+msgid "Right"
+msgstr "ডানে"
+
+#: ../backend.php:298
+msgid "Whole popslide"
+msgstr "পুরো পপ-সাইড"
+
+#: ../backend.php:303
+msgid "Width"
+msgstr "প্রস্থ"
+
+#: ../backend.php:310
+msgid "Display setting"
+msgstr "দর্শন সম্পর্কিত সেটিংস"
+
+#: ../backend.php:313
+msgid "Cover"
+msgstr "কভার"
+
+#: ../backend.php:314
+msgid "Push"
+msgstr "ধাক্কা দেয়া (Push)"
+
+#: ../backend.php:320
+msgid "Padding"
+msgstr "প্যাডিং (Padding)"
+
+#: ../backend.php:322
+msgid "Top: "
+msgstr "উপরেঃ"
+
+#: ../backend.php:323
+msgid "Right: "
+msgstr "ডানঃ "
+
+#: ../backend.php:324
+msgid "Bottom: "
+msgstr "নিচেঃ"
+
+#: ../backend.php:325
+msgid "Left: "
+msgstr "বামেঃ"
+
+#: ../backend.php:330
+msgid "Close button position"
+msgstr "নিচের অবস্থান বন্ধ করুন"
+
+#: ../backend.php:332
+msgid "top left"
+msgstr "উপরে-বামে"
+
+#: ../backend.php:333
+msgid "top right"
+msgstr "উপরে-ডানে"
+
+#: ../backend.php:334
+msgid "bottom right"
+msgstr "নিচে-ডানে"
+
+#: ../backend.php:335
+msgid "bottom left"
+msgstr "নিচে-বামে"
+
+#: ../backend.php:341
+msgid "Close button size"
+msgstr "বোতামের সাইজ বন্ধ করুন"
+
+#: ../backend.php:348
+msgid "Close button color"
+msgstr "বোতামের রঙ বন্ধ করুন"
+
+#: ../backend.php:356
+msgid "Animation"
+msgstr "অ্যানিমেশন"
+
+#: ../backend.php:359
+msgid "Type"
+msgstr "ধরন"
+
+#: ../backend.php:400
+msgid "Duration"
+msgstr "সময় (ক্ষন)"
+
+#: ../backend.php:407
+msgid "Custom CSS"
+msgstr "কাস্টোম সিএসএস(CSS)"
+
+#: ../backend.php:411
+msgid "Enable custom CSS"
+msgstr "কাস্টম সিএসএস সক্রিয় করুন"
+
+#: ../backend.php:414
+msgid "Custom class"
+msgstr "কাস্টোম ক্লাস (Class)"
+
+#: ../backend.php:439
+msgid "PRO version now available almost for free. Lifetime."
+msgstr "এখন প্রো ভার্সন পাওয়া যায় যা প্রায় বিনামুল্যে। আজীবন। "
+
+#: ../backend.php:441
+msgid ""
+"All you have to do is spread the good word about Popslide on your Facebook "
+"wall."
+msgstr ""
+"আপনাকে যা করতে হবে তা হল পপসাইড সম্পর্কে আপনার ফেসবুক ওয়ালে ভাল কথা লিখতে হবে ।"
+
+#: ../backend.php:443
+msgid "Seriously, that's all! No money required!"
+msgstr "সত্য, এটাই সব! কোন টাকার প্রয়োজন নেই।"
+
+#: ../backend.php:445
+#, fuzzy
+msgid ""
+"But don't wait too much! Next release will propably come with Pay to Get "
+"feature, so I'm offering it now for (almost) free"
+msgstr ""
+"বেশি দেরী করবেন না! পরের ভার্সনে অনেক কিছু টাকা দিয়ে কিনতে হতে পারে! আমি "
+"আপনাকে এটি বর্তমানে বিনামুল্যে দিচ্ছি(প্রায়)"
+
+#: ../backend.php:448
+msgid "Share"
+msgstr "শেয়ার করুন "
+
+#: ../backend.php:449
+msgid "and then"
+msgstr "এবং তখন "
+
+#: ../backend.php:450
+msgid "paste the activation code"
+msgstr "সক্রিয়করন কোডটি পেস্ট করুন "
+
+#: ../backend.php:450
+msgid "Verify"
+msgstr "যাচাই করুন "
+
+#: ../backend.php:459
+msgid "Bundled with PRO"
+msgstr ""
+
+#: ../backend.php:462
+msgid "Ability to change cookie name"
+msgstr ""
+
+#: ../backend.php:463
+msgid "Color transparency settings"
+msgstr ""
+
+#: ../backend.php:464
+msgid "Cookie save after custom target click"
+msgstr ""
+
+#: ../backend.php:503
+msgid "Error while saving settings. Please try again"
+msgstr "সেটিংস সংরক্ষনের সময় সমস্যা হয়েছে। আবার চেষ্টা করুন "
+
+#: ../backend.php:507
+msgid "Settings saved."
+msgstr "সেটিং সূমহ সংরক্ষন করা হয়েছে"
+
+#: ../backend.php:515
+msgid "Code seems to be not valid. Did you copied it correctly?"
+msgstr "কোডটি সঠিক নয়। আপনি কি সঠিকভাবে কপি করেছেন?"
+
+#: ../backend.php:519
+msgid "Boom! Done. Thanks and enjoy the PRO version!"
+msgstr "কাজ শেষ! প্রো ভার্সনের মজা নিন। "
