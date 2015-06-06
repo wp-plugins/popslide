@@ -13,27 +13,10 @@ class POPSLIDE_FRONT {
 
 		$this->settings = $popslide->get_settings();
 
-		add_action('wp_enqueue_scripts', array($this, 'load_front_assets'));
-		add_action('wp_head', array($this, 'load_front_css'));
+		add_action( 'wp_enqueue_scripts', array( $this, 'load_front_assets' ) );
+		add_action( 'wp_head', array( $this, 'load_front_css' ) );
 
-		add_action('wp_ajax_popslide_ajax_save_cookie', array($this, 'ajax_save_cookie'));
-		add_action('wp_ajax_nopriv_popslide_ajax_save_cookie', array($this, 'ajax_save_cookie'));
-
-		if ($this->settings->status == 'true') {
-
-			if ( ($this->settings->demo == 'true' && is_super_admin()) || $this->settings->demo == 'false' ) {
-
-				if (wp_is_mobile() && $this->settings->mobile == 'false') {
-				} else {
-
-					add_action('init', array($this, 'count_hits'));
-					add_action('wp_footer', array($this, 'display_popslide'));
-
-				}
-
-			}
-
-		}
+		add_action( 'wp_ajax_popslide_get', array( $this, 'get' ) );
 
 	}
 
@@ -42,18 +25,44 @@ class POPSLIDE_FRONT {
 	 * @return void
 	 */
 	public function load_front_assets() {
-		global $display_popslide;
 
-		if (is_admin() || $display_popslide != true)
+		if (is_admin() )
 			return false; // not this time
 
-		wp_enqueue_style('dashicons');
+		wp_enqueue_style( 'dashicons' );
 
-		wp_enqueue_script('popslide-scripts', (POPSLIDE_DEBUG) ? POPSLIDE_JS.'front.js' : POPSLIDE_JS.'front.min.js', array('jquery'), null, true);
+		wp_enqueue_script( 'jquery-cookie', POPSLIDE_JS . 'jquery.cookie.min.js', array( 'jquery' ), null, true );
 
-		wp_localize_script('popslide-scripts', 'popslide_settings', array(
-			'ajaxurl' => admin_url('admin-ajax.php'),
-			'timeout' => ($this->settings->after->rule == 'or' && $_SESSION['popslide_hits'] >= $this->settings->after->hits) ? 1000 : 1000 * $this->settings->after->seconds, // 1 second after pageload on display page
+		wp_enqueue_script( 'popslide-scripts', ( POPSLIDE_DEBUG ) ? POPSLIDE_JS . 'front.js' : POPSLIDE_JS . 'front.min.js', array( 'jquery', 'jquery-cookie' ), null, true );
+
+		$display = false;
+
+		if ($this->settings->status == 'true') {
+			if ( ( $this->settings->demo == 'true' && is_super_admin() ) || $this->settings->demo == 'false' ) {
+				if ( wp_is_mobile() && $this->settings->mobile == 'false' ) {
+				} else {
+					$display = true;
+				}
+			}
+		}
+
+		wp_localize_script( 'popslide-scripts', 'popslide_settings', array(
+			'ajaxurl' => admin_url( 'admin-ajax.php' ),
+			'nonce' => wp_create_nonce( 'popslide' ),
+			'status' => array(
+				'active' => $display,
+				'demo' => $this->settings->demo
+			),
+			'cookie' => array(
+				'active' => $this->settings->cookie->active,
+				'name' => $this->settings->cookie->name,
+				'days' => $this->settings->cookie->days
+			),
+			'after' => array(
+				'hits' => $this->settings->after->hits,
+				'rule' => $this->settings->after->rule,
+				'seconds' => $this->settings->after->seconds
+			),
 			'position' => $this->settings->position,
 			// 'animation_type' => $this->settings->animation->type,
 			'animation_duration' => $this->settings->animation->duration,
@@ -61,40 +70,21 @@ class POPSLIDE_FRONT {
 				'targets' => $this->settings->cookie->custom_target,
 				'close' => $this->settings->cookie->custom_target_close
 			)
-		));
+		) );
 
 	}
 
-	public function count_hits() {
+	public function get() {
 
-		if ( is_admin() )
-			return false;
-
-		if ( $this->settings->demo == 'false' && isset($_COOKIE[$this->settings->cookie->name]) )
-			return false;
-
-		global $display_popslide;
-	
-		session_start();
-
-		if(!isset($_SESSION['popslide_hits'])) {
-			$_SESSION['popslide_hits'] = 0;
+		if ( ! check_ajax_referer( 'popslide', 'nonce', false ) ) {
+			wp_send_json_error();
 		}
 
-		$_SESSION['popslide_hits']++;
+		ob_start();
 
-		if ( ($_SESSION['popslide_hits'] >= $this->settings->after->hits && $this->settings->after->rule == 'and') || $this->settings->after->rule == 'or') {
-
-			$display_popslide = true;
-
-		}
-
-	}
-
-	public function display_popslide() {
 	?>
 
-		<div id="popslide" class="<?php echo $this->settings->position; ?> <?php echo $this->settings->align; ?> <?php echo $this->settings->custom_css->class; ?>">
+		<div id="popslide" class="<?php echo $this->settings->position; ?> <?php echo $this->settings->align; ?> <?php echo $this->settings->custom_css->class; ?>" style="display: none;">
 			<div class="popslide-table">
 				<div class="popslide-inner">
 					<?php if ($this->settings->close_button->position == 'top_left' || $this->settings->close_button->position == 'bottom_left'): ?>
@@ -111,14 +101,10 @@ class POPSLIDE_FRONT {
 		</div>
 
 	<?php
-	}
 
-	public function ajax_save_cookie() {
+		$html = ob_get_clean();
 
-		if (isset($this->settings->cookie->active) && $this->settings->cookie->active == 'true' && $this->settings->demo != 'true')
-			setcookie($this->settings->cookie->name, 'true', time() + (DAY_IN_SECONDS * $this->settings->cookie->days), '/' );
-
-		die(true);
+		wp_send_json_success( $html );
 
 	}
 

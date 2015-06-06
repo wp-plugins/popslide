@@ -70,3 +70,23 @@
 .popslide-tab #poststuff h3 {
 	padding-left: 0;
 }
+
+/* SPLASH SCREEN */
+
+.popslide-splash h1 {
+	font-size: 3rem;
+}
+
+.popslide-splash ul {
+	padding-left: 2rem;
+	list-style-type: disc;
+}
+
+.popslide-splash .rating-stars {
+	margin-left: 4px;
+}
+
+.popslide-splash .rating-stars a {
+	text-decoration: none;
+	margin-left: -4px;
+}

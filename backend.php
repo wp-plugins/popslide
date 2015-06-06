@@ -15,10 +15,11 @@ class POPSLIDE_BACK {
 
 		add_action('admin_menu', array($this, 'add_menu_page'));
 
+		add_action( 'admin_init', array( $this, 'redirect_to_splash_screen' ) );
+
 		add_action('wp_ajax_popslide_ajax_save_form', array($this, 'ajax_save_form'));
 
 		add_action('wp_ajax_popslide_verify_share', array($this, 'verify_share'));
-
 
 	}
 
@@ -29,8 +30,10 @@ class POPSLIDE_BACK {
 	public function add_menu_page() {
 
 		$this->page_hook = add_options_page('Popslide', 'Popslide', 'manage_options', 'popslide', array($this, 'display_admin_page'));
+		$this->splash_page_hook = add_submenu_page( null, 'Popslide', 'Popslide', 'manage_options', 'popslide-splash', array($this, 'display_splash_page') );
 
-		add_action('admin_print_scripts-'.$this->page_hook, array($this, 'load_admin_assets'));
+		add_action( 'admin_print_scripts-' . $this->page_hook, array( $this, 'load_admin_assets' ) );
+		add_action( 'admin_print_scripts-' . $this->splash_page_hook, array( $this, 'load_admin_assets' ) );
 
 	}
 
@@ -112,6 +115,72 @@ class POPSLIDE_BACK {
 	            </div>
 
             </form>
+
+		</div>
+
+	<?php
+	}
+
+	/**
+	 * Maybe redirect to splash screen
+	 * @return void
+	 */
+	public function redirect_to_splash_screen() {
+
+		if ( get_option( 'popslide_seen_splash' ) == POPSLIDE_VERSION ) {
+			return;
+		}
+
+		update_option( 'popslide_seen_splash', POPSLIDE_VERSION );
+
+		wp_redirect( admin_url( 'index.php?page=popslide-splash' ) );
+		die();
+
+	}
+
+	/**
+	 * Displays splash screen
+	 * @return void
+	 */
+	public function display_splash_page() {
+	?>
+
+		<div class="wrap popslide-splash">
+
+			<h1><?php _e( 'New Popslide is here!', 'popslide' ); ?></h1>
+
+			<h2><?php _e( 'And it\'s ass kickin\'', 'popslide' ); ?> <?php if (  version_compare( get_bloginfo( 'version' ), '4.2' ) >= 0 ) echo '👊'; ?></h2>
+
+			<br>
+
+			<p><?php _e( 'Here\'s quick trough for new features in version 2.5:', 'popslide' ); ?></p>
+
+			<p>
+				<ul>
+					<li><?php _e( 'Fixed bug with any kind of cache. Now Popslide is compatibile with all caching plugins', 'popslide' ); ?></li>
+					<!-- <li><?php _e( 'New engine for PRO version', 'popslide' ); ?></li> -->
+				</ul>
+			</p>
+
+			<br>
+
+			<!-- <p><strong><?php _e( 'Popslide PRO plugin was installed and activated automatically. If you don\'t want to use it, just deactivate it and remove it (however PRO features will be no longer working).', 'popslide' ); ?></strong></p>
+
+			<br> -->
+
+			<h2><?php _e( 'Would you like to rate the Popslide?', 'popslide' ); ?> <?php if (  version_compare( get_bloginfo( 'version' ), '4.2' ) >= 0 ) echo '👌'; ?></h2>
+
+			<p>
+				<div class="wporg-ratings rating-stars">
+					<a href="https://wordpress.org/support/view/plugin-reviews/popslide?rate=5#postform" target="_blank"><span class="dashicons dashicons-star-filled" style="color:#e6b800 !important;"></span></a>
+					<a href="https://wordpress.org/support/view/plugin-reviews/popslide?rate=5#postform" target="_blank"><span class="dashicons dashicons-star-filled" style="color:#e6b800 !important;"></span></a>
+					<a href="https://wordpress.org/support/view/plugin-reviews/popslide?rate=5#postform" target="_blank"><span class="dashicons dashicons-star-filled" style="color:#e6b800 !important;"></span></a>
+					<a href="https://wordpress.org/support/view/plugin-reviews/popslide?rate=5#postform" target="_blank"><span class="dashicons dashicons-star-filled" style="color:#e6b800 !important;"></span></a>
+					<a href="https://wordpress.org/support/view/plugin-reviews/popslide?rate=5#postform" target="_blank"><span class="dashicons dashicons-star-filled" style="color:#e6b800 !important;"></span></a>
+				</div>
+			</p>
+
+			<p><?php _e( 'For every 5 stars, I\'ll do the happy dance (for real)', 'popslide' ); ?> <?php if (  version_compare( get_bloginfo( 'version' ), '4.2' ) >= 0 ) echo '💃'; ?></p>
 
 		</div>
 
