@@ -17,6 +17,7 @@ class POPSLIDE_FRONT {
 		add_action( 'wp_head', array( $this, 'load_front_css' ) );
 
 		add_action( 'wp_ajax_popslide_get', array( $this, 'get' ) );
+		add_action( 'wp_ajax_nopriv_popslide_get', array( $this, 'get' ) );
 
 	}
 
