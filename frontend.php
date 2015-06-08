@@ -81,7 +81,34 @@ class POPSLIDE_FRONT {
 			wp_send_json_error();
 		}
 
+		$content = do_shortcode( shortcode_unautop( wpautop( $this->settings->content ) ) );
+
 		ob_start();
+
+		// MailPoet fix
+		if ( strrpos( $content , 'wysija_form') !== false ) {
+
+			add_shortcode( 'wysija_form', '__return_false' );
+
+			preg_match_all( '/' . get_shortcode_regex() . '/s', $content, $matches, PREG_SET_ORDER );
+
+			foreach ($matches as $match) {
+			
+				if ( $match[2] == 'wysija_form' ) {
+
+					$atts = shortcode_parse_atts( $match[3] );
+					$shortcode = $match[0];
+
+					$widgetNL = new WYSIJA_NL_Widget(true);
+					$widget = $widgetNL->widget( array( 'form' => $atts['id'], 'form_type' => 'shortcode' ) );
+
+					$content = str_replace( $shortcode, $widget, $content );
+
+				}
+
+			}
+
+		}
 
 	?>
 
@@ -92,7 +119,7 @@ class POPSLIDE_FRONT {
 						<div class="popslide-close <?php echo $this->settings->close_button->position; ?>"><span class="dashicons dashicons-no"></span></div>
 					<?php endif ?>
 						<div class="popslide-content">
-							<?php echo do_shortcode( shortcode_unautop( wptexturize( wpautop( $this->settings->content ) ) ) ); ?>
+							<?php echo $content; ?>
 						</div>
 					<?php if ($this->settings->close_button->position == 'top_right' || $this->settings->close_button->position == 'bottom_right'): ?>
 						<div class="popslide-close <?php echo $this->settings->close_button->position; ?>"><span class="dashicons dashicons-no"></span></div>
