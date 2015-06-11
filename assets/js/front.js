@@ -21,6 +21,11 @@ function popslide() {
     		$pop.appendTo('body');
     	}
 
+    	// FB stuff fix
+    	try {
+	        FB.XFBML.parse($pop[0]); 
+	    } catch(ex){}
+
     	if (popslide_settings.position == 'top') $pop.slideDown(popslide_settings.animation_duration, 'linear');
 		else if (popslide_settings.position == 'bottom') $pop.slideDown(popslide_settings.animation_duration, 'linear');
 
