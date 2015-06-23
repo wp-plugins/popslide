@@ -4,7 +4,7 @@ Plugin Name: Popslide
 Description: Best popup slider plugin
 Author: Kuba Mikita
 Author URI: http://www.wpart.pl
-Version: 2.5.3
+Version: 2.5.4
 License: GPL2
 Text Domain: popslide
 */
@@ -57,7 +57,7 @@ class POPSLIDE {
 
 	public function __construct() {
 
-		require_once(ABSPATH.'wp-includes/pluggable.php');
+		// require_once(ABSPATH.'wp-includes/pluggable.php');
 
 		global $display_popslide;
 		$display_popslide = false;
