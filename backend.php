@@ -153,12 +153,12 @@ class POPSLIDE_BACK {
 
 			<br>
 
-			<p><?php _e( 'Here\'s quick trough for new features in version 2.5:', 'popslide' ); ?></p>
+			<p><?php _e( 'Here\'s quick trough for new features in version 2.5.5:', 'popslide' ); ?></p>
 
 			<p>
 				<ul>
-					<li><?php _e( 'Fixed bug with any kind of cache. Now Popslide is compatibile with all caching plugins', 'popslide' ); ?></li>
-					<!-- <li><?php _e( 'New engine for PRO version', 'popslide' ); ?></li> -->
+					<li><?php _e( 'Added filter popslide/enable by which you can control when Popslide is displayed', 'popslide' ); ?></li>
+					<li><?php _e( 'Added filter popslide/settings which contains all settings passed to JS', 'popslide' ); ?></li>
 				</ul>
 			</p>
 

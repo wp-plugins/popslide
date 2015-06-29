@@ -13,8 +13,12 @@ class POPSLIDE_FRONT {
 
 		$this->settings = $popslide->get_settings();
 
-		add_action( 'wp_enqueue_scripts', array( $this, 'load_front_assets' ) );
-		add_action( 'wp_head', array( $this, 'load_front_css' ) );
+		$enable = apply_filters( 'popslide/enable', true );
+
+		if ( $enable ) {
+			add_action( 'wp_enqueue_scripts', array( $this, 'load_front_assets' ) );
+			add_action( 'wp_head', array( $this, 'load_front_css' ) );
+		}
 
 		add_action( 'wp_ajax_popslide_get', array( $this, 'get' ) );
 		add_action( 'wp_ajax_nopriv_popslide_get', array( $this, 'get' ) );
@@ -47,7 +51,7 @@ class POPSLIDE_FRONT {
 			}
 		}
 
-		wp_localize_script( 'popslide-scripts', 'popslide_settings', array(
+		$settings = apply_filters( 'popslide/settings', array(
 			'ajaxurl' => admin_url( 'admin-ajax.php' ),
 			'nonce' => wp_create_nonce( 'popslide' ),
 			'status' => array(
@@ -72,6 +76,8 @@ class POPSLIDE_FRONT {
 				'close' => $this->settings->cookie->custom_target_close
 			)
 		) );
+
+		wp_localize_script( 'popslide-scripts', 'popslide_settings', $settings );
 
 	}
 
