@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: popslide\n"
-"POT-Creation-Date: 2015-06-06 10:41+0100\n"
-"PO-Revision-Date: 2015-06-06 10:41+0100\n"
+"POT-Creation-Date: 2015-06-30 10:01+0100\n"
+"PO-Revision-Date: 2015-06-30 10:01+0100\n"
 "Last-Translator: Jakub Mikita <kuba@wordpressgeeks.co.uk>\n"
 "Language-Team: Kuba Mikita <contact@jmikita.com>\n"
 "Language: Polish\n"
@@ -15,23 +15,23 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../backend.php:97
+#: ../backend.php:96
 msgid "Save"
 msgstr ""
 
-#: ../backend.php:101
+#: ../backend.php:100
 msgid "Settings"
 msgstr ""
 
-#: ../backend.php:102
+#: ../backend.php:101
 msgid "Content"
 msgstr ""
 
-#: ../backend.php:103
+#: ../backend.php:102
 msgid "Styling"
 msgstr ""
 
-#: ../backend.php:105
+#: ../backend.php:104
 msgid "PRO"
 msgstr ""
 
@@ -44,17 +44,17 @@ msgid "And it's ass kickin'"
 msgstr ""
 
 #: ../backend.php:156
-msgid "Here's quick trough for new features in version 2.5:"
+msgid "Here's quick trough for new features in version 2.5.5:"
 msgstr ""
 
 #: ../backend.php:160
 msgid ""
-"Fixed bug with any kind of cache. Now Popslide is compatibile with all "
-"caching plugins"
+"Added filter popslide/enable by which you can control when Popslide is "
+"displayed"
 msgstr ""
 
 #: ../backend.php:161
-msgid "New engine for PRO version"
+msgid "Added filter popslide/settings which contains all settings passed to JS"
 msgstr ""
 
 #: ../backend.php:167
